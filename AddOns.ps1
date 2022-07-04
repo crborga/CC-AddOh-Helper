@@ -3,7 +3,7 @@ $global:github = "https://www.github.com"
 function Show-Menu
 {
         param (
-        [string]$Title = 'ChromieCraft Addon Helper'
+        [string]$Title = 'ChromieCraft AddOn Helper'
     )
 	Clear-Host	
 	Write-Host "============== $Title ================"
@@ -18,7 +18,7 @@ function Show-Menu
 	Write-Host "======================================"
 	}
 
-Show-Menu -Title 'ChromieCraft Addon Helper'
+Show-Menu -Title 'ChromieCraft AddOn Helper'
  $selection = Read-Host "Please make a selection"
  switch ($selection)
  {
